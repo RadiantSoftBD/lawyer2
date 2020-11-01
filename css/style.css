@@ -957,7 +957,7 @@ address a { color: white; margin-left: 20px; }
 /* line 39, ../sass/layout/_header.scss */
 #branding .logo, #branding .site-title { display: inline-block; vertical-align: middle; }
 /* line 43, ../sass/layout/_header.scss */
-#branding .logo { margin-right: 15px; }
+#branding .logo { margin-right: 15px; width: 5% !important; }
 /* line 46, ../sass/layout/_header.scss */
 #branding .site-title { font-size: 18px; font-size: 1.125em; margin: 0; }
 /* line 50, ../sass/layout/_header.scss */
@@ -1060,3 +1060,5 @@ address a { color: white; margin-left: 20px; }
 .hero-slider .flex-control-paging li a.flex-active { background: #ac8074; }
 
 /*# sourceMappingURL=style.css.map */
+.logo { width: 5%;
+}
